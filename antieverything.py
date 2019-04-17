@@ -17,4 +17,5 @@ L = (output + "\n")
 with io.open("used.txt","a", encoding='utf8') as f:
     f.writelines(L)
 
-#print(s + "️‍⃠")
+
+print("Output: " + "️‍⃠")
