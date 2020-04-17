@@ -1,15 +1,8 @@
 # AntiEverythingBot
-A Twitter Bot that hates everything.
+A Twitter Bot that hated everything.
 
-## You will need to install the **[Tweepy library](https://www.tweepy.org/)** in order for this code to work.
+## What it do?
+In February of 2019 Twitter user [@mioog](https://twitter.com/mioog) (NSFW) discovered a Unicode character that allowed one character to overlap another. The ['anti-LGBT' emoji was born](https://www.independent.co.uk/life-style/anti-lgbt-emoji-twitter-gay-pride-flag-homphobic-viral-a8787686.html), depicting a pride flag with a "prohibited sign" over it. **AntiEverythingBot** *was* a Twitter bot that aimed to dilute the meaning behind the fauxmoji by flooding Twitter with alternate anti-emojis. Dealing with an empty unicode character ***AND*** emojis in my code is not something I want to do again.
 
-This is a very straightforward Twitter Bot. When run, the bot will take a random emoji from "emojis.py", check if it has been used in "used.txt", and then combine it with two unicode symbols -- the cross-through symbol and an invisible character that will overlap the two.
-
-### Getting Started (and finished)
-Ensure you have the [Tweepy library](https://www.tweepy.org/) installed.
-
-Put your four Twitter API keys in the blank variables named C_KEY, C_SECRET, A_TOKEN, and A_TOKEN_SECRET at the top of antieverything.py. Keep these keys secret! After this, you should be good to go.
-
-Please note that this code uses some funky Unicode characters that may not display properly in all IDEs or consoles.
-
-Thank you to [@mioog](https://twitter.com/mioog) on Twitter for discovering the Unicode exploit.
+## Links
+[Twitter Page](https://twitter.com/boteverything)
